@@ -1,4 +1,10 @@
 # Find the maximum of a list of numbers
+NAME : VISHNU KM
+
+DEPARTMENT : AI / ML
+
+REG NO : 212223240185
+
 ## Aim:
 To write a program to find the maximum of a list of numbers.
 ## Equipment’s required:
@@ -13,6 +19,10 @@ To write a program to find the maximum of a list of numbers.
 i)	# To find the maximum of marks using the list method sort.
 ```Python
 
+def max_marks(marks):
+    marks.sort()
+    large=marks[-1]
+    return large
 
 
 ```
@@ -20,13 +30,21 @@ i)	# To find the maximum of marks using the list method sort.
 ii)	# To find the maximum marks using the list method max().
 ```Python
 
-
+def max_marks(marks):
+    large=max(marks)
+    return large
 
 ```
 
 iii) # To find the maximum marks without using builtin functions.
 ```Python
-
+def max_marks(list1):
+    max_num=list1[0]
+    for i in list1:
+        if i>max_num:
+            max_num=i
+    return max_num
+    
 
 
 ```
@@ -34,6 +52,15 @@ iii) # To find the maximum marks without using builtin functions.
 
 
 ## Output:
+
+![image](https://github.com/vishnukayyala/FindMaximum/assets/151489368/23a0867f-b7bc-4485-b110-09afefc48642)
+
+![image](https://github.com/vishnukayyala/FindMaximum/assets/151489368/9d9b31fa-a8c1-4721-a372-797a1917193f)
+
+
+![image](https://github.com/vishnukayyala/FindMaximum/assets/151489368/24c810c1-e30b-49ff-9a4c-3488e1634b2f)
+
+
 
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
