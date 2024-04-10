@@ -55,10 +55,6 @@ def max_marks(list1):
 
 ![image](https://github.com/vishnukayyala/FindMaximum/assets/151489368/23a0867f-b7bc-4485-b110-09afefc48642)
 
-![image](https://github.com/vishnukayyala/FindMaximum/assets/151489368/9d9b31fa-a8c1-4721-a372-797a1917193f)
-
-
-![image](https://github.com/vishnukayyala/FindMaximum/assets/151489368/24c810c1-e30b-49ff-9a4c-3488e1634b2f)
 
 
 
